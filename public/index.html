@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="col-lg-1">
+    </div>
+    <div class="col-lg-8">
+      <h1>Timestamp API</h1>
+      <blockquote>
+        <h3>User Stories:</h3>
+        <ol>
+          <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).</li>
+          <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+          <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+        </ol>
+      </blockquote>
+      <h3>Examples</h3>
+      <code>url/December%2015,%202015</code><br>
+      <code>url/1450137600</code>
+      <h3>Example Output</h3>
+      <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code><br>
+      </div>
+  </body>
+</html>
